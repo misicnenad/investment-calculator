@@ -5,7 +5,7 @@ import Row from './Row';
 const AccumulatedAmountsRow = props => {
 	return (
 		<Row
-			firstColumnMainValue={`${props.yearNumber}a`}
+			firstColumnMainValue={`${props.yearNumber}`}
 			secondColumnMainValue={`${props.defaultAccumulatedAmount}`}
 			secondColumnSecondaryValue={`(${props.nonInflatedDefaultAccumulatedAmount})`}
 			thirdColumnMainValue={`${props.untaxedAccumulatedAmount}`}
